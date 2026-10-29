@@ -5,6 +5,8 @@ This assignment builds on your Assignment 7, where you added a Database backend 
 ### Add the Ability to Delete a User Record
 To add a secure delete capability with client-side confirmation to a traditional server-side rendered Node.js/Express application (using EJS or HTML forms), follow this sequential approach.
 
+![Uer Manage Screen](listwdelete.png)
+
 1. Create the Client-Side HTML Form and JS Confirmation:Avoid standard GET links to prevent accidental deletions from web crawlers or prefetching.In your view template (e.g., EJS), use an inline HTML form sending a POST request. Attach an onsubmit handler using standard Vanilla JS confirm() to prompt the user before sending the request.
 ```HTML
 <!-- item-list.ejs -->
